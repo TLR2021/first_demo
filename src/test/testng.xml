@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="alltests">
+    <test name="test1">
+        <!--        配置需要运行的class-->
+        <classes>
+            <class name="MainTestNG"/>
+            <class name="StuDataTestNG"></class>
+            <class name="StuSysTestNG"></class>
+        </classes>
+    </test>
+</suite>
